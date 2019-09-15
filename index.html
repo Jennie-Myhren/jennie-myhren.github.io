@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="intro">
+        <img src='wishGranter.png' height="100px">
+        <p id="instructions">Guess the number I'm thinking of between 1 and 100, and I'll <strong><em>think</em></strong> about granting your wish.</p>
+      </div>
+      <div class="logo">
+        <h1>Wish <span>Granter</span></h1>
+      </div>
+      <div class="submit-guess">
+        <input class="inpt-field" placeholder="#"></input>
+        <p id="feedback"></p>
+        <p id="warning"></p>
+        <p id="hint"></p>
+      </div>
+      <div class="prev-guesses">
+          <p id="first"></p>
+          <p id="second"></p>
+          <p id="third"></p>
+          <p id="fourth"></p>
+          <p id="fifth"></p>
+        </div>
+        <div class="buttons">
+          <button id="submit-btn" class="button">Submit Guess</button>
+          <button id="hint-btn" class="button">Get a Hint</button>
+          <button id="new-game-btn" class="button">Restart Game</button>
+        </div>
+      </div>
+      <div class="footer">
+        <p>A game by Jennie Myhren.</p>
+      </div>
+
+    <script src='js/guessing-game.js'></script>
+  </body>
+
+</html>
